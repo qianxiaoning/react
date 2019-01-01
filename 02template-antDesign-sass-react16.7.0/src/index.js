@@ -4,8 +4,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // index.css公共css文件
-import './assets/css/index.css';
-// app组件
+import './index.scss';
+// app根组件
 import App from './App';
 // 加快react运行速度
 import * as serviceWorker from './serviceWorker';

@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-
-class Product extends Component{
+class LeftSidebar extends Component{
     constructor(){
         super();
         this.state = {
         }
     }
     render(){
-        return <div>product组件</div>
+        return (
+            <div>LeftSidebar</div>
+            
+        )
     }
 }
 
-export default Product
+export default LeftSidebar

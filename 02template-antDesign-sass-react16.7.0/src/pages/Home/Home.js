@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+// import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 class Home extends Component{
     constructor(){
         super();
@@ -7,7 +7,10 @@ class Home extends Component{
         }
     }
     render(){
-        return <div>home组件</div>
+        return (
+            <div>home组件</div>
+            
+        )
     }
 }
 

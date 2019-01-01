@@ -1,5 +1,25 @@
 ### template-antDesign-sass-react16.7.0
 ```
+react-router研究 如：重定向，no match，嵌套路由可以省根路径？
+https://reacttraining.com/react-router/web/example/url-params
+
+react props.children实现vue中slot功能？
+https://reactjs.org/docs/glossary.html#propschildren
+https://reactjs.org/docs/context.html#before-you-use-context
+react实现slot功能
+
+react跨组件通讯
+
+react兄弟组件通讯
+
+react全局事件？
+
+redux用法
+
+React.PropTypes 自 React v15.5 起已弃用。请使用 prop-types 库代替。
+
+视频看到21 1:16
+Ant Design的使用
 ```
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
