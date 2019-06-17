@@ -1,9 +1,8 @@
-### Tutorial tic-tac-toe game
+### Tutorial_tic-tac-toe game
 ```
 教程开始 说明
-https://reactjs.org/tutorial/tutorial.html#what-is-react
+https://zh-hans.reactjs.org/tutorial/tutorial.html#what-is-react
 ```
----
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
