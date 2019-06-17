@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-class Demo extends Component{
+class NoMatch extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -7,9 +7,9 @@ class Demo extends Component{
     }
     render(){
         return (
-            <div>Demo</div>
+            <div>404</div>
         )
     }
 }
 
-export default Demo;
+export default NoMatch;

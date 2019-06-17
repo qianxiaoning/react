@@ -7,8 +7,8 @@ class News extends Component{
         }
     }
     render(){
-        return <div>news组件</div>
+        return <div>news</div>
     }
 }
 
-export default News
+export default News;

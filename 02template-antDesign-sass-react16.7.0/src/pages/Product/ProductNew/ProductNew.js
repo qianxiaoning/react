@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class Product extends Component{
+class ProductNew extends Component{
     constructor(){
         super();
         this.state = {
         }
     }
     render(){
-        return <div>product add</div>
+        return <div>product new</div>
     }
 }
 
-export default Product
+export default ProductNew;

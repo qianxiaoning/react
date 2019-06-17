@@ -1,8 +1,5 @@
 ### template-antDesign-sass-react16.7.0
 ```
-react-router研究 如：重定向，no match，嵌套路由可以省根路径？
-https://reacttraining.com/react-router/web/example/url-params
-
 react props.children实现vue中slot功能？
 https://reactjs.org/docs/glossary.html#propschildren
 https://reactjs.org/docs/context.html#before-you-use-context

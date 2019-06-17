@@ -1,3 +1,4 @@
+// 此为笔记文件
 // 组件名称 首字母大写
 import React, { Component } from 'react';
 // 引入本地图片
@@ -217,4 +218,4 @@ class Demo extends Component{
     }
 }
 
-export default Demo
+export default Demo;

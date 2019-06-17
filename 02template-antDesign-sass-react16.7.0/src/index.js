@@ -5,12 +5,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // index.css公共css文件
 import './index.scss';
-// app根组件
-import App from './App';
+// 外层结构 NavAndMain
+import NavAndMain from './structures/NavAndMain.js';
 // 加快react运行速度
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<NavAndMain />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

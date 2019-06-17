@@ -8,10 +8,9 @@ class Home extends Component{
     }
     render(){
         return (
-            <div>home组件</div>
-            
+            <div>home</div>
         )
     }
 }
 
-export default Home
+export default Home;
