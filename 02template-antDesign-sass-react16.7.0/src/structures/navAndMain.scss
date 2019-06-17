@@ -1,7 +1,10 @@
 .rootWrap{
-    header{border:3px solid #43508e;}
     height:100%;
-    a{
-        &.on{color:red;}
+    header{
+        border:3px solid #43508e;
+        a{
+            padding: 0 20px;
+            &.on{color:red;}
+        }
     }
 }

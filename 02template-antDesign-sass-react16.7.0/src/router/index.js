@@ -1,9 +1,11 @@
 // 路由
-import Home from '../pages/Home/Home.js';
-import News from '../pages/News/News.js';
-import Product from '../pages/Product/Product.js';
-import ProductOld from '../pages/Product/ProductOld/ProductOld.js';
-import ProductNew from '../pages/Product/ProductNew/ProductNew.js';
+import Home from 'pages/Home/Home.js';
+import News from 'pages/News/News.js';
+import Product from 'pages/Product/Product.js';
+import ProductOld from 'pages/Product/ProductOld/ProductOld.js';
+import ProductNew from 'pages/Product/ProductNew/ProductNew.js';
+import ParentSonTransmit from 'pages/ParentSonTransmit/ParentSonTransmit.js';
+
 
 const routes = [
     {
@@ -29,6 +31,10 @@ const routes = [
                 component:ProductNew
             }
         ]
+    },
+    {
+        path:'/parentSonTransmit',
+        component:ParentSonTransmit
     }
 ];
 

@@ -1,5 +1,8 @@
 ### template-antDesign-sass-react16.7.0
 ```
+高阶函数
+https://zh-hans.reactjs.org/docs/higher-order-components.html
+
 react props.children实现vue中slot功能？
 https://reactjs.org/docs/glossary.html#propschildren
 https://reactjs.org/docs/context.html#before-you-use-context
@@ -12,8 +15,6 @@ react兄弟组件通讯
 react全局事件？
 
 redux用法
-
-React.PropTypes 自 React v15.5 起已弃用。请使用 prop-types 库代替。
 
 视频看到21 1:16
 Ant Design的使用

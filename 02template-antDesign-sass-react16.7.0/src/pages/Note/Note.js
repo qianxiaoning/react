@@ -201,14 +201,14 @@ class Demo extends Component{
                                 </div>
                             )
                         }
+                    }                    
+                    // propTypes 规定父组件的传值类型
+                    Children.propTypes = {
+                        myData:PropTypes.string
                     }
                     // defaultProps 子组件props的默认值
                     Children.defaultProps = {
                         myData:'我是空的myData'
-                    }
-                    // propTypes 规定父组件的传值类型
-                    Children.propTypes = {
-                        myData:PropTypes.string
                     }
                     export default Children;
                     {/* a */}

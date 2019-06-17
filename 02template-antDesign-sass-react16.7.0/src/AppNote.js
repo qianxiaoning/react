@@ -2,9 +2,9 @@
 import React, { Component } from 'react';
 // 路由
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
-import Home from './components/Home';
-import News from './components/News';
-import Product from './components/Product';
+import Home from 'components/Home';
+import News from 'components/News';
+import Product from 'components/Product';
 
 class App extends Component {
   constructor(props){

@@ -4,11 +4,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // index.css公共css文件
-import './index.scss';
+import 'index.scss';
 // 外层结构 NavAndMain
-import NavAndMain from './structures/NavAndMain.js';
+import NavAndMain from 'structures/NavAndMain.js';
 // 加快react运行速度
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from 'serviceWorker';
 
 ReactDOM.render(<NavAndMain />, document.getElementById('root'));
 

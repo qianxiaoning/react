@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 // 路由
 import {BrowserRouter,Route,NavLink,Switch} from 'react-router-dom';
 
-import routes from '../router/index' 
+import routes from 'router/index' 
 import './navAndMain.scss';
-import NoMatch from '../pages/NoMatch/NoMatch.js';
+import NoMatch from 'pages/NoMatch/NoMatch.js';
 
 class NavAndMain extends Component {  
   render() {
@@ -16,6 +16,7 @@ class NavAndMain extends Component {
             <NavLink to='/' activeClassName="on" exact>首页</NavLink>
             <NavLink to='/news' activeClassName="on">新闻</NavLink>
             <NavLink to='/product' activeClassName="on">产品</NavLink>
+            <NavLink to='/ParentSonTransmit' activeClassName="on">父子通讯</NavLink>
           </header>
           <Switch>
             {

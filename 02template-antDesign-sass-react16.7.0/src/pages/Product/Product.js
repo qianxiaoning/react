@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter,Switch,Route,NavLink} from 'react-router-dom';
 import './product.scss';
-import NoMatch from '../NoMatch/NoMatch.js';
+import NoMatch from 'pages/NoMatch/NoMatch.js';
 
 class Product extends Component{
     constructor(){
