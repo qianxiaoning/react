@@ -5,6 +5,8 @@ import Product from 'pages/Product/Product.js';
 import ProductOld from 'pages/Product/ProductOld/ProductOld.js';
 import ProductNew from 'pages/Product/ProductNew/ProductNew.js';
 import ParentSonTransmit from 'pages/ParentSonTransmit/ParentSonTransmit.js';
+import ReduxExperience from 'pages/ReduxExperience/ReduxExperience.js';
+import HocPra from 'pages/HocPra/HocPra.js';
 
 
 const routes = [
@@ -35,6 +37,14 @@ const routes = [
     {
         path:'/parentSonTransmit',
         component:ParentSonTransmit
+    },
+    {
+        path:'/ReduxExperience',
+        component:ReduxExperience
+    },
+    {
+        path:'/HocPra',
+        component:HocPra
     }
 ];
 

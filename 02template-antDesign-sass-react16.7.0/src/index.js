@@ -9,8 +9,16 @@ import 'index.scss';
 import NavAndMain from 'structures/NavAndMain.js';
 // 加快react运行速度
 import * as serviceWorker from 'serviceWorker';
-
-ReactDOM.render(<NavAndMain />, document.getElementById('root'));
+// redux
+import {Provider} from 'react-redux';
+import configureStore from 'redux/store/configureStore';
+// redux pra
+// import 'redux/redux';
+ReactDOM.render(
+    <Provider store={configureStore()}>
+        <NavAndMain />
+    </Provider>,
+document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

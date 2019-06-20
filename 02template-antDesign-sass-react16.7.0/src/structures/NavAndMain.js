@@ -17,6 +17,8 @@ class NavAndMain extends Component {
             <NavLink to='/news' activeClassName="on">新闻</NavLink>
             <NavLink to='/product' activeClassName="on">产品</NavLink>
             <NavLink to='/ParentSonTransmit' activeClassName="on">父子通讯</NavLink>
+            <NavLink to='/ReduxExperience' activeClassName="on">redux体验</NavLink>
+            <NavLink to='/HOCPra' activeClassName="on">hoc高阶组件</NavLink>
           </header>
           <Switch>
             {

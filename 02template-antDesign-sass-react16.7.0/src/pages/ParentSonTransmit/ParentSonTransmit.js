@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Son from 'components/Son/Son.js';
+import eventEmitter from 'utils/events';
 
 class ParentSonTransmit extends Component{
     constructor(props){
@@ -22,6 +23,17 @@ class ParentSonTransmit extends Component{
             sonLike:''
         }
     }
+    // 静态方法
+    static eventCallback=(data)=>{
+        console.log(data);
+    }
+    // 事件总线
+    componentDidMount(){
+        eventEmitter.on('message', ParentSonTransmit.eventCallback);
+    }
+    componentWillUnmount(){
+        eventEmitter.off('message', ParentSonTransmit.eventCallback);
+    }    
     subLikeShow(name){
         console.log(name);
         this.setState({

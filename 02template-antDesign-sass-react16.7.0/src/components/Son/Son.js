@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import 'components/Son/son.scss';
+import eventEmitter from 'utils/events';
 
 class Son extends Component{
     constructor(props){
         super(props);
         this.state = {
-            sonValue:1
+            sonValue:1,
+            emitObj:{
+                a:1,
+                b:2
+            }
         }
     }
     showSonValue(e){
@@ -24,7 +29,9 @@ class Son extends Component{
                             <li key={item.id} onClick={()=>this.props.parentFun(item.name)}>{item.name}</li>
                         )
                     })
-                }                
+                }             
+                {/* 事件总线 */}
+                <button onClick={()=>{eventEmitter.emit('message',this.state.emitObj)}}>事件总线发射器</button>   
             </ul>
         )
     }
