@@ -8,3 +8,7 @@
         }
     }
 }
+.spinWrapper{
+    height: 100%;
+    .ant-spin-spinning{max-height: none!important;}
+}

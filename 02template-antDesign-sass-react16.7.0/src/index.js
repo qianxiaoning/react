@@ -12,8 +12,8 @@ import * as serviceWorker from 'serviceWorker';
 // redux
 import {Provider} from 'react-redux';
 import configureStore from 'redux/store/configureStore';
-// redux pra
-// import 'redux/redux';
+
+
 ReactDOM.render(
     <Provider store={configureStore()}>
         <NavAndMain />

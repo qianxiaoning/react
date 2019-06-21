@@ -5,6 +5,11 @@ import React, { Component } from 'react';
 
 const hoc = RenderComponent => {
     return class extends Component{
+        constructor(props){
+            super(props);
+            this.state = {
+            }
+        }
         // 生命周期
         componentDidMount(){}
         componentWillUnmount(){}
