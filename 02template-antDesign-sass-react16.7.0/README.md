@@ -3,7 +3,7 @@
 ```
 build/ 生成目录
 public/ 静态资源目录，create-react-app会直接把这里的东西起在服务根目录
-scr/
+src/
     assets/ 资源文件夹，如图片
     components/ 组件
         ReactSlotPra 弹窗组件，引用父组件传入的slot数据
