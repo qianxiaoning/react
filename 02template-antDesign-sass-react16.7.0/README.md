@@ -1,23 +1,41 @@
 ### template-antDesign-sass-react16.7.0
+- 目录结构
 ```
-高阶函数
-
-react props.children实现vue中slot功能？
-
-react实现slot功能
-
-react跨组件通讯
-
-react兄弟组件通讯
-
-react全局事件？用events模块
-
-redux用法
-
-react公共方法
-
-视频看到21 1:16
-Ant Design的使用
+build/ 生成目录
+public/ 静态资源目录，create-react-app会直接把这里的东西起在服务根目录
+scr/
+    assets/ 资源文件夹，如图片
+    components/ 组件
+        ReactSlotPra 弹窗组件，引用父组件传入的slot数据
+        ReduxSon redux的修改
+        Son 事件总线的发射
+    config/ 参数文件夹
+    pages/ 页面文件夹
+        Home 1.react中input的写法
+             2.react中组件slot的实现方式
+        News react中组件slot的实现方式
+        Product 嵌套路由的实现
+        ParentSonTransmit 1.父子通讯的方式
+                          2.事件总线的监听与销毁
+        ReduxExperience redux的引用
+        HocPra 使用hoc高阶组件的公共方法
+        HttpPra 1.axios请求试验
+                2.引入antd库
+    redux/ redux文件夹
+    router/ router配置
+    structures/ 结构组件
+    utils/
+        events.js 事件总线模块
+        hoc.js hoc高阶组件（也可以写一些公共的东西，用来替代mixins）
+        http.js http请求和antd的loading，message的结合封装
+        urls.js 接口地址的统一管理
+        utils.js 公共方法，工具函数
+    AppNote.js 笔记文件
+    index.js 入口文件
+    index.scss 公共样式
+config-overrides.js customize-cra对create-react-app的webpack的可配置，如为了antd配置了babel-plugin-import
+jsconfig.json create-react-app的配置文件，现在只配了项目资源可以绝对路径
+package.json proxy设置的地方
 ```
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
