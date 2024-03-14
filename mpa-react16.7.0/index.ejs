@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="cache-control" content="no-cache, no-store, max-age=0, private" />
+  <meta http-equiv="expires" content="0" />
+  <meta name="_csrfname_" content="#{_csrfname_}#" />
+  <meta name="_csrftoken_" content="#{_csrftoken_}#" />
+  <!-- 此为ejs语法，可以在index.html模板中直接使用 -->
+  <!-- 但是html-loader不支持ejs语法，所以用了html-loader后，得使用index.ejs -->
+  <!-- 用htmlWebpackPlugin.options.xxx获取HtmlWebpackPlugin对象中的值 -->
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <script>window.isCsrfDisabled="#{_iscsrfdisabled_}#";</script>
+</head>
+<body>
+  <div id="moduleRoot"></div>
+</body>
+</html>
